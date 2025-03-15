@@ -1,0 +1,76 @@
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+
+# Virtual environment
+venv/
+.env/
+.envrc
+.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore model checkpoints
+checkpoints/
+*.ckpt
+*.pt
+*.pth
+*.onnx
+*.bin
+*.hdf5
+
+# Ignore logs
+logs/
+*.log
+wandb/
+tensorboard/
+mlruns/
+
+# Ignore results and evaluation artifacts
+results/
+output/
+predictions/
+
+# Ignore temporary files
+*.tmp
+*.swp
+*.swo
+*.bak
+
+# Ignore large or unnecessary files
+*.mp4
+*.zip
+*.tar.gz
+*.tar
+*.7z
+.DS_Store
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+*.iml
+
+# Ignore Hugging Face models cache
+~/.cache/huggingface/
+
+# Ignore compiled files
+*.o
+*.so
+*.a
+*.out
+
+# Ignore Latex/Overleaf auxiliary files
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc
+
+# Ignore merged model weight files (if large)
+experiments/runs/*
+experiments/files/*
+datasets/*

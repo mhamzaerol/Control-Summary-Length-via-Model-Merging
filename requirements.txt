@@ -1,0 +1,36 @@
+# Core Libraries
+numpy
+scipy
+pandas
+matplotlib
+ipykernel
+ipdb
+python-dotenv
+
+# Deep Learning and NLP Frameworks
+torch
+transformers
+peft
+datasets
+sentencepiece
+protobuf
+
+# Evaluation and Metric Calculation
+rouge-score
+nltk
+evaluate
+
+# Model Merging & Fine-Tuning
+accelerate
+bitsandbytes
+optimum
+
+# Data Processing & Experiment Tracking
+scikit-learn
+seaborn
+tensorboard
+wandb
+
+# Preprocessing
+openai
+gdown
